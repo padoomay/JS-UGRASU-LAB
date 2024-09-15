@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | LAB1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/lab1.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="menu-item"><a class="menu-link" href="lab1.html">Лаба №1</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <hr>
+        <div class="box-task">
+            <h2>Задание 1</h2>
+            <label for="user_angle">Введите x:</label>
+            <input type="number" id="user_angle">
+            <button onclick="calculateSin()">Вычислить</button>
+            <p id="task1_answer">Sin(x) = Неизвестно</p>
+        </div>
+        <hr>
+        <div class="box-task"></div>
+            <h2>Задание 2</h2>
+            <div class="answer-box">
+                <p id="task2_answer"></p>
+            </div>
+            <button onclick="clickHandler('text')" id="task2_button">Нажать</button>
+        </div>
+        <hr>
+        <div class="box-task"></div>
+            <h2>Задание 3</h2>
+            <p id="task3_answer">
+                Цвет: Неизвестно<br>
+                Марка: Неизвестно<br>
+                Модель: Неизвестно
+            </p>
+            <label for="car_color">Цвет</label>
+            <input type="text" id="car_color"><br><br>
+            <label for="car_brand">Марка</label>
+            <input type="text" id="car_brand"><br><br>
+            <label for="car_model">Модель</label>
+            <input type="text" id="car_model"><br><br>
+            <button onclick="createObject()">Отправить</button>
+        </div>
+        <hr>
+    </main>
+</body>
+</html>
