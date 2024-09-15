@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | LAB2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/lab2.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="menu-item"><a class="menu-link" href="lab1.html">Лаба №1</a></li>
+                <li class="menu-item"><a class="menu-link" href="lab2.html">Лаба №2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <hr>
+        <div class="box-task">
+            <h2>Задание 1</h2>
+            <label for="user_name">Имя</label>
+            <input type="text" id="user_name">
+            <label for="user_surname">Фамилия</label>
+            <input type="text" id="user_surname">
+            <label for="user_surname">Отчество</label>
+            <input type="text" id="user_midname">
+            <label for="user_age">Возраст</label>
+            <input type="number" id="user_age">
+            <button onclick="welcomeUser()">Поздороваться</button>
+        </div>
+        <hr>
+        <div class="box-task">
+            <h2>Задание 2</h2>
+            <label for="first_num">Делимое</label>
+            <input type="number" id="first_num"><br><br>
+            <label for="second_num">Делитель</label>
+            <input type="number" id="second_num"><br><br>
+            <button onclick="calculateDivision()">Вычислить</button>
+            <p id="task2_answer">Ответ: Неизвестно</p>
+        </div>
+        <hr>
+        <div class="box-task">
+            <h2>Задание 3</h2>
+            <label for="day_of_week">День недели</label>
+            <input type="number" id="day_of_week">
+            <button onclick="printDayOfWeek()">Вывести</button>
+            <p id="task3_answer">Ответ: Неизвестно</p>
+        </div>
+        <hr>
+        <div>
+            <h2>Задание 4</h2>
+            <label for="user_length">Длина вагона</label>
+            <input type="number" id="user_length">
+            <label for="user_height">Высота вагона</label>
+            <input type="number" id="user_height">
+            <label for="user_width">Ширина вагона</label>
+            <input type="number" id="user_width">
+            <label for="user_count">Кол-во коробок</label>
+            <input type="number" id="user_count">
+            <button onclick="calculateCount()">Подсчитать</button>
+            <p id="task4_answer">Ответ: Неизвестно</p>
+        </div>
+        <hr>
+    </main>
+</body>
+</html>
