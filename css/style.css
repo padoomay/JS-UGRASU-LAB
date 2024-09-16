@@ -31,3 +31,12 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.table-multiplication {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.multiplication-box {
+    margin-right: 25px;
+}
